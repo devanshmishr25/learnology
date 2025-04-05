@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Learnology: Simplifying Exam Prep with PYQs and Notes</title>
+  <link rel="shortcut icon" href="/IMAGES/title.png" type="image/x-icon">
+  <link rel="stylesheet" href="CSS/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <div class="log-contain"><img src="../IMAGES/mainlogo.png" alt="Website Logo"></div>
+    <div class="menu-icon" id="menuToggle">
+      &#9776; <!-- Three-line hamburger icon -->
+    </div>
+    <ul id="menuList">
+      <li><a href="#">Home</a></li>
+      <li><a href="https://erp.aktu.ac.in/webpages/oneview/oneview.aspx?AspxAutoDetectCookieSupport=1">Result</a></li>
+      <li><a href="#aboutus">About</a></li>
+      <li><a href="mailto:educationsources01@gmail.com">Contact us</a></li>
+    </ul>
+  </header>
+
+  <!-- body -->
+  <div class="wrapper">
+    <div class="main-main">
+      <div class="main-btn-find">
+        <button class="button"
+          onclick="document.getElementById('findpapers').scrollIntoView({behavior: 'smooth'});">Find Papers</button>
+        <h2 class="main-img-head">LETS CONQUER THE WORLD<br>BY KNOWLEDGE</h2><br>
+      </div>
+      <h4 class="wrpscrl">Scroll Down</h4>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Subjects Section -->
+  <div id="container" class="container">
+    <h3 id="findpapers" style="text-align: center;">Computer Science & Allied branches PYQ's & Notes</h3>
+    <div class="boxes">
+      <div class="box1" data-subject="CSE"><a href="#dynamicDiv">CSE</a></div>
+      <div class="box1" data-subject="IT"><a href='#dynamicDiv'>IT</a></div>
+      <div class="box1" data-subject="AI"><a href="#dynamicDiv">AI</a></div>
+      <div class="box1" data-subject="AIML"><a href='#dynamicDiv'>AIML</a></div>
+      <div class="box1" data-subject="DS"><a href='#dynamicDiv'>DS</a></div>
+      <div class="box1" data-subject="IOT"><a href='#dynamicDiv'>IOT</a></div>
+      <div class="box1" data-subject="CYBER SECURITY"><a href='#dynamicDiv'>CYBER SECURITY</a></div>
+      <div class="box1" data-subject="CLOUD COMPUTING"><a href='#dynamicDiv'>CLOUD COMPUTING</a></div>
+    </div>
+  </div>
+
+  <!-- Hidden div for dynamic content -->
+  <div id="dynamicDiv" class="hidden-div">
+    <h3 id="subjectTitle" class="yeartitle"></h3>
+    <p id="subjectContent" class="yeartitle"></p>
+    <div class="content">
+      <h1>ALL YEAR</h1>
+    </div>
+    <div class="container2">
+      <div class="box-container">
+        <a href="HTML/firstyear.html" class="box box-1">I YEAR</a>
+        <a href="HTML/secondyear.html" class="box box-2">II YEAR</a>
+        <a href="HTML/thirdyear.html" class="box box-3">III YEAR</a>
+        <a href="HTML/fourthyear.html" class="box box-4">IV YEAR</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <section id="aboutus" class="about-section">
+    <h2>About Us</h2>
+    <p>Welcome to our platform! We are dedicated to providing AKTU students with valuable resources, including Previous
+      Year Question Papers (PYQs), quality study notes, and educational content on quantum computing. Our goal is to
+      support students in their academic journey by offering easily accessible, well-organized study materials that
+      enhance their learning experience.</p>
+    <h3>Our Mission</h3>
+    <p>Our mission is to help AKTU students excel in their exams and stay updated with the latest advancements in the
+      field of quantum computing. By providing a comprehensive repository of resources, we aim to make studying more
+      efficient and engaging.</p>
+    <h3>What We Offer</h3>
+    <ul>
+      <li>Previous Year Question Papers (PYQs)</li>
+      <li>Comprehensive Study Notes</li>
+      <li>Study Tips & Exam Strategies</li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="footer">
+      <div class="column">
+        <h1>Learnology</h1>
+        <p>Lucknow, U.P, India.</p>
+      </div>
+      <div class="column">
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Question Papers</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Media</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h3>Products</h3>
+        <ul>
+          <li><a href="#">Test Series</a></li>
+          <li><a href="#">Live Tests and Quizzes</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Training Program</a></li>
+          <li><a href="#">Doubts</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <h2>Follow us on</h2>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="mailto:educationsources01@gmail.com"><i class="fa fa-envelope"></i></a>
+    </div>
+    <div class="footer-bottom">
+      <p>Copyright © 2024 Learnology : All rights reserved</p>
+      <a href="#">User Policy</a>
+      <a href="#">Terms</a>
+      <a href="#">Privacy</a>
+    </div>
+  </footer>
+
+  <script src="/JS/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
